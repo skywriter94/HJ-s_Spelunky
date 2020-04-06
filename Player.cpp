@@ -278,7 +278,7 @@ void Player::update_Movement()
 			//// 매달리기 ////
 			//// 매달리기 ////
 			if (player.posState == Air && 
-				player.id.x > 0 && player.id.x < TILEX - 1)
+				player.id.x > 0 && player.id.x < TILEX)
 			{
 				RECT tempRC;
 				if (KEYMANAGER->isOnceKeyDown('E'))
